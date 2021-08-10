@@ -127,3 +127,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Apple
+.DS_Store
+
+# PyCharm
+.idea/*
+
+# App
+logs/*
+img/*
+
+# Instabot
+config/

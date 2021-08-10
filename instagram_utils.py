@@ -8,7 +8,7 @@ def instagram_login(logger):
     ig_username = os.getenv('IG_USERNAME')
     ig_password = os.getenv('IG_PASSWORD')
 
-    cookie_path = 'config/Fohoma_uuid_and_cookie.json'
+    cookie_path = f'config/{ig_username}_uuid_and_cookie.json'
     if os.path.exists(cookie_path):
         os.remove(cookie_path)
 
